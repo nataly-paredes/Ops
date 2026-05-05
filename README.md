@@ -5,7 +5,7 @@
 
 ## 📖 The Business Story
 
-A regional logistics company operating across 5 warehouse locations was experiencing **rising operational costs, missed SLAs, and inconsistent throughput** across sites — but leadership had no unified view of where the problems were or why they were happening.
+A regional logistics company operating across 5 warehouse locations was experiencing **rising operational costs, missed SLAs, and inconsistent throughput** across sites, but leadership had no unified view of where the problems were or why they were happening.
 
 As the BI Engineer on this engagement, I was brought in to:
 1. Identify where the pain points lived (region, shift, process type)
@@ -26,7 +26,7 @@ As the BI Engineer on this engagement, I was brought in to:
 
 ---
 
-## 💡 The "After" Story — Recommended Actions & Projected Impact
+## 💡 The "After" Story, Recommended Actions & Projected Impact
 
 | Recommendation | Projected Improvement |
 |---|---|
@@ -70,20 +70,20 @@ project1-ops-dashboard/
 
 ## 🛠️ Tools & Technologies
 
-- **SQL Server** — data modeling, KPI queries, optimization
-- **Python (pandas, matplotlib, seaborn)** — data cleaning, EDA, visualization
-- **Power BI + DAX** — interactive dashboard, drill-throughs, KPI cards
-- **Excel / CSV** — mock data source
+- **SQL Server**, data modeling, KPI queries, optimization
+- **Python (pandas, matplotlib, seaborn)**, data cleaning, EDA, visualization
+- **Power BI + DAX**, interactive dashboard, drill-throughs, KPI cards
+- **Excel / CSV**, mock data source
 
 ---
 
 ## 📊 Dashboard Pages
 
-1. **Executive Summary** — Overall KPIs: throughput, SLA %, cost per unit, defect rate
-2. **Regional Breakdown** — Side-by-side comparison across 5 locations
-3. **Shift Analysis** — Day vs. night performance across key metrics
-4. **Trend Analysis** — 12-month view of throughput, errors, and dock delays
-5. **"What If" Projection** — Modeled impact of recommended changes
+1. **Executive Summary**, Overall KPIs: throughput, SLA %, cost per unit, defect rate
+2. **Regional Breakdown**, Side-by-side comparison across 5 locations
+3. **Shift Analysis**, Day vs. night performance across key metrics
+4. **Trend Analysis**, 12-month view of throughput, errors, and dock delays
+5. **"What If" Projection**, Modeled impact of recommended changes
 
 ---
 
@@ -92,10 +92,10 @@ project1-ops-dashboard/
 See [`powerbi/dax_measures.md`](powerbi/dax_measures.md) for full documentation.
 
 Highlights:
-- `SLA Compliance %` — % of orders fulfilled within target window
-- `Throughput vs. Benchmark` — dynamic comparison using benchmark reference table
-- `Defect Rate by Shift` — filtered measure with shift slicer support
-- `Projected Savings` — what-if parameter driving scenario modeling
+- `SLA Compliance %`, % of orders fulfilled within target window
+- `Throughput vs. Benchmark`, dynamic comparison using benchmark reference table
+- `Defect Rate by Shift`, filtered measure with shift slicer support
+- `Projected Savings`, what-if parameter driving scenario modeling
 
 ---
 
